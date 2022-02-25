@@ -9,6 +9,7 @@ function App() {
     <Routes>
     <Route path="/" element={<Home />} />
     <Route path="/rooms/new" element={<NewRoom />} />
+    <Route path="*" element={<h1>Not Found</h1>} />
     </Routes>
     </BrowserRouter>
   );
